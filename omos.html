@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Language set to English. Change to da for Danish if needed-->
+<!--/* ====================================
+Head
+==================================== */-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <meta name="description" content="Her ser du hvad We Feat står for.">
+    <title>We Feat - Pure Organic</title>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!--/* ====================================
+Head slut
+==================================== */-->
+
+<body class="omos">
+
+    <header>
+        <a href="index.html">
+            <img src="images/logo.png">
+        </a>
+    </header>
+
+  <!--/* ====================================
+Burger menu
+==================================== */-->
+  
+   <div class="overlay-navigation">
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html" data-content="The beginning">Home</a></li>
+                <li><a href="level2.html" data-content="Keep calm and eat healthy">Menu</a></li>
+                <li><a href="#" data-content="Make it easy">Take Away</a></li>
+                <li><a href="omos.html" data-content="Our concept">Om Os</a></li>
+                <li><a href="medarbejdere.html" data-content="Only the finest">Staff</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <div class="open-overlay">
+            <nav clas="navbar">
+                <div class="icon">
+                    <div class="hamburger"></div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    
+    <!--/* ====================================
+Burger menu slut
+==================================== */-->
+
+    <section class="article-row">
+
+        <section class="article-box">
+
+            <img class=omosimg src="images/Hvorforwefeat2.jpg" alt="hvorforwefeat">
+
+            <div class="content">
+                <h1> Hvorfor We Feat </h1>
+                <h3> At navngive et madkoncept ud fra en vision skulle vise sig at være en større kunstart. Måneders brainstorm bragte os nærmere den ordlyd, der skulle kendetegne vores fantastiske produkter, varme atmosfære og venskabelige service-DNA. </h3>
+            </div>
+        </section>
+
+        <section class="article-box">
+            <img class="omosimg" src="images/Hvorforoekologisk.jpg" alt="billedeafoeko">
+            <div class="content">
+                <h1> Hvorfor økologisk </h1>
+                <h3> Når du køber økologisk, er du med til at skabe bedre dyrevelfærd, mere natur og passe godt på vores miljø. Økologi er omdrejningspunktet for vore butikker og for os handler det om at tage sig bedre af sig selv og sine kære. </h3>
+            </div>
+        </section>
+
+        <section class="article-box">
+            <img class="omosimg" src="images/Hvorforenbowl.jpg" alt="billedeafbowl">
+
+            <div class="content">
+                <h1> Hvorfor en bowl </h1>
+                <h3> En bowl er ikke bare en salat. Det er et velforberedt måltid, der er skabt for at tilfredsstille og nære dit system helt ned til cellulære niveauer. Vi modtager primært varer fra Hørkram, som er den mest pålidelige leverer af økologiske varer, men støtter også primært lokale producenter. </h3>
+            </div>
+        </section>
+              </section>
+
+             <footer>
+
+
+                <div class="content">
+                    <h1> KONTAKT </h1>
+                    <h3> Email: Frederik@WeFeatOrganic.com <br> Mobil: 27 46 56 01
+                    </h3>
+                </div>
+    
+                <section class="social">
+                <a href="https://www.instagram.com/wefeat/?hl=da"><img src="images/insta.png" alt="instagramlogo"></a>
+                <a href="https://da-dk.facebook.com/Wefeat/"><img src="images/face.png" alt="facebooklogo"></a>
+                </section>
+
+                <div class="content">
+                    <h1> ADRESSE </h1>
+                    <h3> Guldsmedsgade 33 <br> 8000 <br> Århus C </h3>
+                </div>
+
+        </footer>
+        
+    
+<!--/* ====================================
+Javascript
+==================================== */-->
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+    <script type="text/javascript">
+        $('document').ready(function() {
+            $('.icon').click(function() {
+                $('.icon').toggleClass('active');
+            })
+        })
+
+    </script>
+
+
+
+</body>
+
+
+</html>
